@@ -4,6 +4,7 @@ import fs2.Stream
 
 import scala.annotation.tailrec
 
+/** F[_]のように表されるEffectからStreamを作成する方法を解説する */
 object EffectConstructor extends App {
   val error = new RuntimeException("some error")
 

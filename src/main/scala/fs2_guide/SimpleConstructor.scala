@@ -1,6 +1,7 @@
 package fs2_guide
 import fs2.Stream
 
+/** 単純な値からStreamを作成する方法を解説する */
 object SimpleConstructor extends App {
   // 空Streamの作成
   println(Stream.empty.toList) // => List()
